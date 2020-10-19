@@ -1,1 +1,1 @@
-export class Select {};
+export class Select {}
