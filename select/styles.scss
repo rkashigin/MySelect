@@ -63,6 +63,10 @@ body {
     padding: 1rem;
     border-bottom: 1px solid #ccc;
 
+    &.selected {
+      background-color: blanchedalmond;
+    }
+
     &:hover {
       background-color: #eee;
       cursor: pointer;
