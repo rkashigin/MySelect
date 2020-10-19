@@ -1,9 +1,31 @@
+@import '_variables.scss';
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 .app {
   padding-top: 5rem;
   display: flex;
   justify-content: center;
+}
 
-  &.wrap {
-    width: 500px;
+.wrap {
+  width: 500px;
+}
+
+.select {
+  &__input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: $height;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+  }
+
+  &__dropdown {
+
   }
 }
