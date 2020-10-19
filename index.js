@@ -3,6 +3,7 @@ import './select/styles.scss';
 
 const select = new Select('#select', {
     placeholder: 'Please choose an element',
+    selectedId: '2',
     data: [
         {id: '1', value: 'First'},
         {id: '2', value: 'Second'},
