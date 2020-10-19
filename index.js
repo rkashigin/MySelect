@@ -13,6 +13,9 @@ const select = new Select('#select', {
         {id: '6', value: 'Sixth'},
         {id: '7', value: 'Seventh'},
     ],
+    onSelect(item) {
+        console.log('Selected item:', item);
+    },
 });
 
 window.s = select;
